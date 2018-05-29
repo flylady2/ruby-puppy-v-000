@@ -10,7 +10,7 @@ class Dog
   end
 
   def Dog.all
-    @@all.each do |name|
+    @@all.each do |self|
       puts "#{name}"
 
     end
