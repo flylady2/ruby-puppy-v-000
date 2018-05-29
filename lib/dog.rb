@@ -11,7 +11,7 @@ class Dog
 
   def Dog.all
     @@all.each do |name|
-      puts self.name
+      puts dog.name
 
     end
   end
